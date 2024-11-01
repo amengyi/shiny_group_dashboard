@@ -1,0 +1,3 @@
+[build]
+  command = "docker build -t shiny_group_dashboard ."
+  publish = "/srv/shiny-server"
