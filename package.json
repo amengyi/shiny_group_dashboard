@@ -1,0 +1,11 @@
+{
+  "name": "shiny_group_dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "docker build -t shiny_group_dashboard ."
+  },
+  "devDependencies": {
+    "@netlify/plugin-docker-build": "^1.0.0"
+  }
+}
