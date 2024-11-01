@@ -1,0 +1,1 @@
+install.packages(c("shiny", "shinydashboard", "ggplot2", "dplyr", "DT", "plotly"))
