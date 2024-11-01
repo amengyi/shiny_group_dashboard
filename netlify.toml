@@ -4,8 +4,4 @@
 
 [[plugins]]
   package = "@netlify/plugin-docker-build"
-  inputs = {
-    context = ".",
-    tag = "shiny_group_dashboard",
-    args = {}
-  }
+  inputs = {context = ".",tag = "shiny_group_dashboard"}
