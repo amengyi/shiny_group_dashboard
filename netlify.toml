@@ -1,3 +1,11 @@
 [build]
   command = "docker build -t shiny_group_dashboard ."
   publish = "/srv/shiny-server"
+
+[[plugins]]
+  package = "@netlify/plugin-docker-build"
+  inputs = {
+    context = ".",
+    tag = "shiny_group_dashboard",
+    args = {}
+  }
