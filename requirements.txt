@@ -1,6 +1,0 @@
-shiny
-shinydashboard
-ggplot2
-dplyr
-DT
-plotly
